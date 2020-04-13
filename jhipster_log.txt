@@ -1,0 +1,79 @@
+INFO! Using JHipster version installed globally
+INFO! Executing import-jdl ./database/SmsTemplate.jh
+INFO! Options: from-cli: true, inline: 
+INFO! Found .yo-rc.json on path. This is an existing app
+INFO! The JDL is being parsed.
+INFO! Found entities: SmsTemplate.
+INFO! The JDL has been successfully parsed
+INFO! Generating 1 entity.
+
+Found the .jhipster/SmsTemplate.json configuration file, entity can be automatically generated!
+
+
+The entity SmsTemplate is being updated.
+
+
+Unable to find src/main/resources/config/liquibase/master.xml or missing required jhipster-needle.
+Reference to 20200406155600_added_entity_SmsTemplate.xml not added.
+
+
+
+Unable to find src/main/webapp/app/layouts/navbar/navbar.component.html or missing required jhipste
+r-needle. Reference to sms-template not added to menu.
+
+
+
+Unable to find src/main/webapp/i18n/en/global.json or missing required jhipster-needle.  Reference
+to en  not added as a new entity in the menu.
+
+   create src\main\resources\config\liquibase\changelog\20200406155600_added_entity_SmsTemplate.xml
+
+   create src\main\resources\config\liquibase\fake-data\sms_template.csv
+   create src\main\java\com\sap\smcs\secondgenengagement\domain\SmsTemplate.java
+   create src\main\java\com\sap\smcs\secondgenengagement\repository\SmsTemplateRepository.java
+   create src\main\java\com\sap\smcs\secondgenengagement\web\rest\SmsTemplateResource.java
+   create src\test\java\com\sap\smcs\secondgenengagement\web\rest\SmsTemplateResourceIT.java
+   create src\test\java\com\sap\smcs\secondgenengagement\domain\SmsTemplateTest.java
+   create src\main\java\com\sap\smcs\secondgenengagement\domain\enumeration\RecordStatus.java
+   create src\main\webapp\app\entities\sms-template\sms-template.component.html
+   create src\main\webapp\app\entities\sms-template\sms-template-detail.component.html
+   create src\main\webapp\app\entities\sms-template\sms-template-update.component.html
+   create src\main\webapp\app\entities\sms-template\sms-template-delete-dialog.component.html
+   create src\main\webapp\app\shared\model\sms-template.model.ts
+   create src\main\webapp\app\entities\sms-template\sms-template.module.ts
+   create src\main\webapp\app\entities\sms-template\sms-template.route.ts
+   create src\main\webapp\app\entities\sms-template\sms-template.component.ts
+   create src\main\webapp\app\entities\sms-template\sms-template-detail.component.ts
+   create src\main\webapp\app\entities\sms-template\sms-template.service.ts
+   create src\main\webapp\app\entities\sms-template\sms-template-update.component.ts
+   create src\main\webapp\app\entities\sms-template\sms-template-delete-dialog.component.ts
+   create src\test\javascript\spec\app\entities\sms-template\sms-template-detail.component.spec.ts
+   create src\test\javascript\spec\app\entities\sms-template\sms-template.component.spec.ts
+   create src\test\javascript\spec\app\entities\sms-template\sms-template.service.spec.ts
+   create src\test\javascript\spec\app\entities\sms-template\sms-template-update.component.spec.ts
+   create src\test\javascript\spec\app\entities\sms-template\sms-template-delete-dialog.component.s
+pec.ts
+   create src\main\webapp\app\shared\model\enumerations\record-status.model.ts
+   create src\main\webapp\i18n\en\recordStatus.json
+   create src\main\webapp\i18n\en\smsTemplate.json
+
+Running post run module hooks
+
+Could not compose module generator-jhipster-entity-audit. 
+Make sure you have installed the module with 'npm install -g generator-jhipster-entity-audit'
+
+Running `webpack:build` to update client app
+
+Entity SmsTemplate generated successfully.
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path C:\Users\C5305131\Documents\sgn_wksp\secondgenengagement\package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\Users\C5305131\Documents\sgn_wksp\secon
+dgenengagement\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\C5305131\AppData\Roaming\npm-cache\_logs\2020-04-06T15_55_35_087Z-debug.log
+INFO! Congratulations, JHipster execution is complete!
